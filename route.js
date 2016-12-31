@@ -47,7 +47,7 @@ app.get('/dynamic', function(req, res){
 });
 
 app.get('/topic', function(req, res){
-/**/
+/*
 		var topics= [
 			'JavaScript is ...',
 			'NodeJS is ...',
@@ -61,7 +61,7 @@ app.get('/topic', function(req, res){
 		`;
 
 		//var output = str + topics[req.query.id];
-/**/
+*/
 //		var output = req.query.id + ', ' + req.query.name;
 		res.send(str);
 });
